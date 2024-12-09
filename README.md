@@ -9,7 +9,7 @@ Each day reveals a new interactive challenge, tutorial, or feature focused on fr
 Topics include cutting-edge JavaScript and CSS features from the last few years, including those with limited availability or newly supported in modern browsers.
 Think of it as a fun and educational countdown to Christmas, combining the joy of learning with the holiday spirit!
 
-### Day 2: CSS - Scroll-Driven Animations
+### Day 1: CSS - Scroll-Driven Animations
 - Task: Animate a Header’s Size While Scrolling.
 - Steps:
 1.	Use @scroll-timeline to link scrolling progress to a CSS animation.
@@ -17,7 +17,14 @@ Think of it as a fun and educational countdown to Christmas, combining the joy o
 3.	Apply the animation using animation-timeline.
 - DX Improvement: Removes the need for complex JavaScript scroll listeners, making animations smoother and more declarative.
 
-### Day 4: CSS - Container Queries
+### Day 2: CSS - Scroll-Driven Animations 2
+- Task: Animate the Card’s Size And Background While Scrolling.
+- Steps:
+1.	Create a card that scales from 0.8 to 1.2 and changes its background color as it scrolls into view
+2.	Use the view() function to define the animation based on the element’s visibility in the viewport.
+- DX Improvement: Simplifies scroll-driven animations without relying on JavaScript, improving performance and maintainability.
+
+### Day 3: CSS - Container Queries
 - Task: Create a Responsive Product Card.
 - Steps:
 1.	Design a card layout that adjusts from vertical to horizontal at 500px container width.
