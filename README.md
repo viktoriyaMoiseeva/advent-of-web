@@ -31,41 +31,12 @@ Think of it as a fun and educational countdown to Christmas, combining the joy o
 2.	Use :has(:invalid) to dynamically toggle styles.
 - DX Improvement: Reduces reliance on JavaScript for interactive form behavior, improving maintainability.
 
-### Day 7: JavaScript - RegExp ‘v’ Flag
-- Task: Validate Emoji-Only Input.
-- Steps:
-1.	Write a regular expression using the ‘v’ flag to match only Unicode emojis.
-2.	Validate and sanitize user input in a web form.
-- DX Improvement: Simplifies Unicode handling, improving accuracy and eliminating the need for verbose regex patterns.
-
 ### Day 8: CSS - @property for Custom Properties
 - Task: Animate a Button’s Background on Hover.
 - Steps:
 1.	Use @property to define an animatable --bg-color.
 2.	Apply the background color dynamically on hover with smooth transitions.
 - DX Improvement: Enables animation of CSS variables directly, avoiding JavaScript workarounds for dynamic styling.
-
-### Day 9: JavaScript - Decorators
-- Task: Automatically Log Method Calls in a Class.
-- Steps:
-1.	Write a @log decorator to log method names and arguments.
-2.	Apply it to methods in a user management class (e.g., login and logout).
-
-Mock data:
-```
-class User {
-  constructor(name) {
-    this.name = name;
-  }
-  login() {
-    return `${this.name} has logged in.`;
-  }
-  logout() {
-    return `${this.name} has logged out.`;
-  }
-}
-```
-- DX Improvement: Simplifies repetitive meta-programming tasks, improving code modularity and clarity.
 
 ### Day 10: CSS - Individual Transform Properties
 - Task: Add Interactive Transform Effects.
@@ -199,10 +170,3 @@ const obj3 = new CustomObject(3, "Charlie");
 1.	Apply a consistent accent-color to all form controls (checkboxes, radio buttons, progress bars).
 2.	Add hover and focus styles for interactivity.
 - DX Improvement: Provides a simple, declarative way to style form controls consistently without custom styling for each.
-
-### Day 23: JavaScript - Async Context
-- Task: Track User Sessions Across Async Calls.
-- Steps:
-1.	Use AsyncContext to store and retrieve session-related data (e.g., user ID) across asynchronous API calls.
-2.	Test the context propagation by logging data in each async function.
-- DX Improvement: Simplifies context management across asynchronous workflows, avoiding manual parameter passing.
