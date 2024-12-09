@@ -1,0 +1,44 @@
+.form-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 15px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: gray;
+    color: white;
+    font-size: 1rem;
+    cursor: not-allowed;
+}
+
+/* form:has(:valid) button {
+    background-color: #4caf50;
+    cursor: pointer;
+}
+
+form:has(:invalid) button {
+    background-color: gray;
+    cursor: not-allowed;
+} */
