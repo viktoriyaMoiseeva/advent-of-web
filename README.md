@@ -1,3 +1,14 @@
+## Frontend Advent Calendar 2024
+
+### 🎄 For Whom:
+This advent calendar is designed for frontend developers and anyone passionate about web development.
+Whether you’re a experienced professional or just starting your journey, this calendar offers something valuable for everyone.
+
+### ✨ What It’s About:
+Each day reveals a new interactive challenge, tutorial, or feature focused on frontend development.
+Topics include cutting-edge JavaScript and CSS features from the last few years, including those with limited availability or newly supported in modern browsers.
+Think of it as a fun and educational countdown to Christmas, combining the joy of learning with the holiday spirit!
+
 ### Day 2: CSS - Scroll-Driven Animations
 - Task: Animate a Header’s Size While Scrolling.
 - Steps:
