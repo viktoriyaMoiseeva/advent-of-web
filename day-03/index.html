@@ -9,21 +9,28 @@
     </head>
     <body>
         <header class="header">:has() Pseudo-Class</header>
-        <form class="form-container">
-            <label>
-                Name:
-                <input type="text" name="name" required />
-            </label>
-            <label>
-                Email:
-                <input type="email" name="email" required />
-            </label>
-            <label>
-                Password:
-                <input type="password" name="password" required minlength="6" />
-            </label>
-            <button type="submit" disabled>Submit</button>
-        </form>
+        <main>
+            <form class="form-container">
+                <label>
+                    Name:
+                    <input type="text" name="name" required />
+                </label>
+                <label>
+                    Email:
+                    <input type="email" name="email" required />
+                </label>
+                <label>
+                    Password:
+                    <input
+                        type="password"
+                        name="password"
+                        required
+                        minlength="6"
+                    />
+                </label>
+                <button type="submit" disabled>Submit</button>
+            </form>
+        </main>
         <script type="module" src="./main.js"></script>
     </body>
 </html>
