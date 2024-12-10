@@ -16,6 +16,7 @@ A latest version of Chrome browser.
 TODO:
 - [] page view transition?
 - [] transfer 'task pages' to codepen sandboxes
+- [] https://blog.saeloun.com/2023/08/11/2023-ecmascript-2023-new-features/
 
 ### Day 1: CSS - Scroll-Driven Animations
 - Task: Animate a Header’s Size While Scrolling.
