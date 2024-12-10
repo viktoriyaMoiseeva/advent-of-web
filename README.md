@@ -10,12 +10,13 @@ Each day reveals a new interactive challenge, tutorial, or feature focused on fr
 Topics include cutting-edge JavaScript and CSS features from the last few years, including those with limited availability or newly supported in modern browsers.
 Think of it as a fun and educational countdown to Christmas, combining the joy of learning with the holiday spirit!
 
+### 🛠️ Requirements:
+A latest version of Chrome browser.
+
 TODO:
-- [] popover api
 - [] Text-wrap: balance and pretty
 - [] light-dark() function
 - [] add documentation links for each task
-- [] change home page layout, lock next days until the current day is completed, add task description to the days details
 
 ### Day 1: CSS - Scroll-Driven Animations
 - Task: Animate a Header’s Size While Scrolling.
@@ -46,11 +47,12 @@ TODO:
 2.	Use the view() function to define the animation based on the element’s visibility in the viewport.
 - DX Improvement: Simplifies scroll-driven animations without relying on JavaScript, improving performance and maintainability.
 
-### Day 5: Web API - Popover API
+### Day 5: Web API - Popover API with Anchor Positioning
 - Task: Implement a Custom Popover Component.
 - Steps:
 1.	Create a custom popover component that displays content on hover.
-2.	Use the Popover API to manage the popover’s visibility and position.
+2.	Use the Popover API to manage the popover’s visibility.
+3.  Use the Anchor Positioning API to position the popover relative to the anchor element.
 - DX Improvement: Simplifies the creation of interactive components with built-in popover functionality.
 
 ### Day 8: CSS - @property for Custom Properties

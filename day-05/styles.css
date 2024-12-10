@@ -1,0 +1,25 @@
+.button {
+    /* anchor-name: --anchor-btn; */
+    padding: 8px 16px;
+}
+
+/* reset default styles */
+[popover] {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.popover {
+    padding: 16px;
+    max-width: 200px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: #000;
+    background-color: #fff;
+    /* position-anchor: --anchor-btn;
+    top: anchor(--anchor-btn bottom);
+    left: anchor(--anchor-btn right); */
+}
