@@ -17,6 +17,7 @@ TODO:
 - [] Text-wrap: balance and pretty
 - [] light-dark() function
 - [] add documentation links for each task
+- [] transfer 'task pages' to codepen sandboxes
 
 ### Day 1: CSS - Scroll-Driven Animations
 - Task: Animate a Header’s Size While Scrolling.

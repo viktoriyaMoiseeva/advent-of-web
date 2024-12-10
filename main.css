@@ -37,6 +37,8 @@ main {
     margin: 0 auto;
 
     summary {
+        padding: 4px 8px;
+        background: #d9d9d9;
         cursor: pointer;
     }
 }
