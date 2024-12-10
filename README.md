@@ -14,7 +14,7 @@ Think of it as a fun and educational countdown to Christmas, combining the joy o
 A latest version of Chrome browser.
 
 TODO:
-- [] light-dark() function
+- [] page view transition?
 - [] transfer 'task pages' to codepen sandboxes
 
 ### Day 1: CSS - Scroll-Driven Animations
