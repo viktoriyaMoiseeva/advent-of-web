@@ -14,9 +14,7 @@ Think of it as a fun and educational countdown to Christmas, combining the joy o
 A latest version of Chrome browser.
 
 TODO:
-- [] Text-wrap: balance and pretty
 - [] light-dark() function
-- [] add documentation links for each task
 - [] transfer 'task pages' to codepen sandboxes
 
 ### Day 1: CSS - Scroll-Driven Animations
@@ -56,25 +54,28 @@ TODO:
 3.  Use the Anchor Positioning API to position the popover relative to the anchor element.
 - DX Improvement: Simplifies the creation of interactive components with built-in popover functionality.
 
-### Day 8: CSS - @property for Custom Properties
-- Task: Animate a Button’s Background on Hover.
+### Day 6: CSS - text-wrap: balance
+- Task: Implement Balanced and Aesthetically Pleasing Text Wrapping.
 - Steps:
-1.	Use @property to define an animatable --bg-color.
-2.	Apply the background color dynamically on hover with smooth transitions.
-- DX Improvement: Enables animation of CSS variables directly, avoiding JavaScript workarounds for dynamic styling.
+1.	Use the text-wrap: balance property on the paragraphs to enable balanced text wrapping.
+2.	Implement fallbacks or feature queries to maintain graceful degradation in browsers that do not support text-wrap: balance yet.
+- DX Improvement: Simplifies the creation of interactive components with built-in popover functionality.
 
-### Day 10: CSS - Individual Transform Properties
-- Task: Add Interactive Transform Effects.
+### Day 7: CSS - light-dark() Function
+- Task: Implement a Light-Dark Theme.
 - Steps:
-1.	Create a button that rotates slightly on hover and scales up on click.
-2.	Use rotate and scale independently for smooth animations.
-- DX Improvement: Reduces reliance on the complex transform shorthand, improving readability and maintainability.
+1.  Set "color-scheme: light dark" to enable the light-dark() color function for the document.
+1.	Define CSS variables for primary colors (text color and background color) used for both light and dark themes using light-dark() function.
+2.  Highlight how the light-dark() function simplifies theme management compared to manually toggling classes or redefining variables.
+- DX Improvement: Simplifies theme management and enhances user experience by enabling dynamic color adjustments based on the selected theme.
 
 ### Day 11: JavaScript - Promise.withResolvers
-- Task: Create a Debounced Search Box.
+- Task: Create a Reusable Deferred Promise Wrapper
 - Steps:
-1.	Use Promise.withResolvers to debounce API calls during user input.
-2.	Only trigger the API call if no input occurs for 300ms.
+1.	Before implementing Promise.withResolvers(), review how to create a deferred promise using external resolve and reject variables
+2.	Create a function createDeferred() that leverages Promise.withResolvers() to return an object containing the promise, and its resolve and reject functions.
+3.	Use the createDeferred() function to create multiple promises. Demonstrate resolving and rejecting these promises from outside the executor function.
+4.  Notice how Promise.withResolvers() simplifies the code by eliminating the need for external variables.
 - DX Improvement: Simplifies promise-based workflows by avoiding manual resolve and reject handling.
 
 ### Day 12: CSS - New Color Functions
