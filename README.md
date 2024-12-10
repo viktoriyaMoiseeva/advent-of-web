@@ -1,7 +1,8 @@
 ## Frontend Advent Calendar 2024
 
 ### 🎄 For Whom:
-This advent calendar is designed for frontend developers and anyone passionate about web development.
+Haven’t been keeping up with the latest frontend trends?
+This advent is perfect for you to explore and experiment with new web technologies and features that have emerged in recent years.
 Whether you’re a experienced professional or just starting your journey, this calendar offers something valuable for everyone.
 
 ### ✨ What It’s About:
@@ -13,6 +14,8 @@ TODO:
 - [] popover api
 - [] Text-wrap: balance and pretty
 - [] light-dark() function
+- [] add documentation links for each task
+- [] change home page layout, lock next days until the current day is completed, add task description to the days details
 
 ### Day 1: CSS - Scroll-Driven Animations
 - Task: Animate a Header’s Size While Scrolling.
@@ -42,6 +45,13 @@ TODO:
 1.	Create a card that scales from 0.6 to 1 and changes its background color as it scrolls into view
 2.	Use the view() function to define the animation based on the element’s visibility in the viewport.
 - DX Improvement: Simplifies scroll-driven animations without relying on JavaScript, improving performance and maintainability.
+
+### Day 5: Web API - Popover API
+- Task: Implement a Custom Popover Component.
+- Steps:
+1.	Create a custom popover component that displays content on hover.
+2.	Use the Popover API to manage the popover’s visibility and position.
+- DX Improvement: Simplifies the creation of interactive components with built-in popover functionality.
 
 ### Day 8: CSS - @property for Custom Properties
 - Task: Animate a Button’s Background on Hover.
