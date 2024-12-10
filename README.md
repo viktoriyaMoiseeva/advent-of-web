@@ -78,13 +78,6 @@ TODO:
 4.  Notice how Promise.withResolvers() simplifies the code by eliminating the need for external variables.
 - DX Improvement: Simplifies promise-based workflows by avoiding manual resolve and reject handling.
 
-### Day 12: CSS - New Color Functions
-- Task: Build a Smooth Dark Mode Toggle.
-- Steps:
-1.	Use color-mix() to transition between light and dark themes.
-2.	Apply the colors to the background and text dynamically.
-- DX Improvement: Eliminates the need for JavaScript or preprocessors for color calculations, improving code simplicity.
-
 ### Day 13: JavaScript - Atomics.waitAsync
 - Task: Synchronize Worker Progress.
 - Steps:
@@ -103,13 +96,6 @@ const workers = [
 ];
 ```
 - DX Improvement: Enables efficient synchronization in multithreaded JavaScript applications.
-
-### Day 14: CSS - Nesting
-- Task: Refactor a Component’s Styles.
-- Steps:
-1.	Take a complex stylesheet for a card component and refactor it to use nesting.
-2.	Group related styles hierarchically to reduce redundancy.
-- DX Improvement: Improves stylesheet readability and organization, reducing maintenance overhead.
 
 ### Day 15: JavaScript - String.toWellFormed
 - Task: Sanitize User Input for Unicode Compliance.
