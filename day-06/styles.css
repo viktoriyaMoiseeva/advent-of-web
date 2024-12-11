@@ -1,6 +1,14 @@
-.balanced-text {
+.balanced-text,
+.pretty-text {
     font-size: 1.1rem;
     line-height: 1.6;
     margin-bottom: 20px;
+}
+
+.balanced-text {
     /* text-wrap: balance; */
+}
+
+.pretty-text {
+    /* text-wrap: pretty; */
 }
