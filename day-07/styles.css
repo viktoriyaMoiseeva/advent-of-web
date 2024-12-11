@@ -1,12 +1,7 @@
 :root {
-    /* color-scheme: light dark; */
-    /* --primary-color: light-dark(#333, #fafafa);
-    --primary-background: light-dark(#e4e4e4, #333); */
 }
 
 .card {
     padding: 16px 24px;
     border-radius: 16px;
-    /* color: var(--primary-color);
-    background-color: var(--primary-background); */
 }

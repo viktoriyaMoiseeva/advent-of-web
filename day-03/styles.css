@@ -30,13 +30,3 @@ button {
     font-size: 1rem;
     cursor: not-allowed;
 }
-
-/* form:has(:valid) button {
-    background-color: #4caf50;
-    cursor: pointer;
-}
-
-form:has(:invalid) button {
-    background-color: gray;
-    cursor: not-allowed;
-} */

@@ -3,18 +3,4 @@
     top: 0;
     height: 100px;
     font-size: 2em;
-    /* animation: shrink-header linear both;
-    animation-timeline: scroll();
-    animation-range: 0 100px; */
 }
-
-/* @keyframes shrink-header {
-    from {
-        height: 100px;
-        font-size: 2em;
-    }
-    to {
-        height: 50px;
-        font-size: 1em;
-    }
-} */
