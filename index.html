@@ -63,7 +63,28 @@
                 </p>
 
                 <h2>🛠️ Requirements:</h2>
-                <p>A latest version of Chrome browser.</p>
+                <p>
+                    A <strong>latest version of Chrome browser</strong> and
+                    Node.js 20 and later.
+                </p>
+
+                <h2>🤔 How To Use:</h2>
+                <p>
+                    Clone the repo and run the following commands from the
+                    project directory:
+                </p>
+                <pre>
+<code>
+npm install
+</code>
+<code>
+npm run dev
+</code>
+                </pre>
+                <p>
+                    Open the browser and navigate to http://localhost:5173 to
+                    start the advent calendar.
+                </p>
             </section>
 
             <section class="days">
@@ -457,38 +478,94 @@
 
                     <p>
                         DX Improvement: Simplifies the creation of smooth
-                        animations.
+                        animations for dynamic content.
                     </p>
                 </details>
 
                 <details>
                     <summary>Day 13</summary>
                     <p>View Transition 2</p>
-                    <p>Task: Animate page transition</p>
-                    <a href="" target="_blank">Documentation</a>
+                    <p>Task: Animate page transition.</p>
+                    <a
+                        href="https://developer.mozilla.org/en-US/docs/Web/API/View_Transitions_API"
+                        target="_blank"
+                        >Documentation</a
+                    >
                     <p>Steps:</p>
                     <ol>
-                        <li></li>
+                        <li>
+                            Go to the root main.css file and define
+                            @view-transition rule to turn cross-document
+                            transitions on
+                        </li>
+                        <li>
+                            Define animations for entering and exiting pages
+                            (for example, fade in/out, sliding effect) during
+                            navigation with @keyframes.
+                        </li>
+                        <li>
+                            Use the `::view-transition-old` and
+                            `::view-transition-new` pseudo-elements to apply the
+                            animations during transitions.
+                        </li>
+                        <li>
+                            Go to the task page (it will open in the same tab)
+                            and then you can go back and forth between the two
+                            pages to see the transition effect.
+                        </li>
                     </ol>
 
                     <a href="/day-13/">Go to the task page</a>
 
-                    <p>DX Improvement:</p>
+                    <p>
+                        DX Improvement: Provides a native way to animate page
+                        transitions without relying on JavaScript or third-party
+                        libraries.
+                    </p>
                 </details>
 
                 <details>
                     <summary>Day 14</summary>
-                    <p></p>
-                    <p>Task:</p>
-                    <a href="" target="_blank">Documentation</a>
+                    <p>Relative colors</p>
+                    <p>Task: Implement a color palette with relative colors.</p>
+                    <a
+                        href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_colors/Relative_colors"
+                        target="_blank"
+                        >Documentation</a
+                    >
                     <p>Steps:</p>
                     <ol>
-                        <li></li>
+                        <li>Define --base-color value at the :root</li>
+                        <li>
+                            Use hsl() function with relative values for the
+                            color palette using the base color.
+                        </li>
+                        <li>See the results for static palette.</li>
+                    </ol>
+                    <ol>
+                        <li>
+                            Define the --base-hue (use number value from 0 to
+                            360) and --secondary-color (hsl) values at the :root
+                        </li>
+                        <li>
+                            Use hsl() function with relative values for the
+                            color palette using the --base-hue and
+                            --secondary-color.
+                        </li>
+                        <li>
+                            Use JavaScript to handle the range input and update
+                            the --base-hue value accordingly.
+                        </li>
+                        <li>See the results for dynamic palette.</li>
                     </ol>
 
                     <a href="/day-14/" target="_blank">Go to the task page</a>
 
-                    <p>DX Improvement:</p>
+                    <p>
+                        DX Improvement: Allows to create more flexible and
+                        maintainable color palettes, enables dynamic color
+                        adjustments based on a single base color.
+                    </p>
                 </details>
             </section>
         </main>

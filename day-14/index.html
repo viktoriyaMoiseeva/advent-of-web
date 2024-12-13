@@ -3,12 +3,38 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Day 14:</title>
+        <title>Day 14: Relative colors</title>
         <link rel="stylesheet" href="../main.css" />
     </head>
     <body>
-        <header class="header"></header>
-        <main class="container"></main>
+        <header class="header">Relative colors</header>
+        <main class="container">
+            <h2>Static color palette</h2>
+            <div class="colors-card">
+                <div class="color color_1"></div>
+                <div class="color color_2"></div>
+                <div class="color color_3"></div>
+                <div class="color color_4"></div>
+                <div class="color color_5"></div>
+            </div>
+
+            <h2>Dynamic color palette</h2>
+            <input
+                id="range-input"
+                type="range"
+                min="0"
+                max="360"
+                value="180"
+            />
+
+            <div class="dynamic-colors-card">
+                <div class="color color_1"></div>
+                <div class="color color_2"></div>
+                <div class="color color_3"></div>
+                <div class="color color_4"></div>
+                <div class="color color_5"></div>
+            </div>
+        </main>
         <script type="module" src="./main.js"></script>
     </body>
 </html>

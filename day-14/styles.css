@@ -1,0 +1,43 @@
+:root {
+}
+
+.colors-card,
+.dynamic-colors-card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    .color {
+        height: 80px;
+    }
+}
+
+.colors-card {
+    margin-bottom: 32px;
+
+    .color_1 {
+        background: var(--base-color);
+    }
+
+    .color_2 {
+        background: hsl(from var(--base-color) h s l / 90%);
+    }
+
+    .color_3 {
+        background: hsl(from var(--base-color) h s l / 70%);
+    }
+
+    .color_4 {
+        background: hsl(from var(--base-color) h s l / 50%);
+    }
+
+    .color_5 {
+        background: hsl(from var(--base-color) h s l / 30%);
+    }
+}
+
+.dynamic-colors-card {
+    .color_1 {
+        background: var(--secondary-color);
+    }
+}
