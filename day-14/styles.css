@@ -18,22 +18,6 @@
     .color_1 {
         background: var(--base-color);
     }
-
-    .color_2 {
-        background: hsl(from var(--base-color) h s l / 90%);
-    }
-
-    .color_3 {
-        background: hsl(from var(--base-color) h s l / 70%);
-    }
-
-    .color_4 {
-        background: hsl(from var(--base-color) h s l / 50%);
-    }
-
-    .color_5 {
-        background: hsl(from var(--base-color) h s l / 30%);
-    }
 }
 
 .dynamic-colors-card {
