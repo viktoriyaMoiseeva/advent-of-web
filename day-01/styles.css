@@ -3,4 +3,13 @@
     top: 0;
     height: 100px;
     font-size: 2em;
+    animation: resize__header linear forwards;
+    animation-timeline: scroll();
+}
+
+@keyframes resize__header {
+    to {
+        height: 50px;
+        font-size: 1em;
+    }
 }
