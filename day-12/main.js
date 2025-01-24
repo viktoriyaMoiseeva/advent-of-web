@@ -104,6 +104,9 @@ const updateTabView = (event) => {
   });
 };
 
-function updateView(event) {}
+function updateView(event) {
+  document.startViewTransition();
+  updateTabView(event)
+}
 
 init();
