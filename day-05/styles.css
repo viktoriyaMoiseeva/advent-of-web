@@ -1,5 +1,6 @@
 .button {
     padding: 8px 16px;
+    anchor-name: --button;
 }
 
 /* reset default styles */
@@ -10,6 +11,10 @@
 }
 
 .popover {
+    position-anchor: --button;
+    position: fixed;
+    left: anchor(right);
+    bottom: anchor(top);
     padding: 16px;
     max-width: 200px;
     border: 1px solid #ddd;
