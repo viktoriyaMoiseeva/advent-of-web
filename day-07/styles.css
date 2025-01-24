@@ -1,7 +1,9 @@
 :root {
+    color-scheme: light dark;
 }
 
 .card {
     padding: 16px 24px;
     border-radius: 16px;
+    color: light-dark(black, white);
 }
