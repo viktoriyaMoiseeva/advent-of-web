@@ -5,14 +5,14 @@ const names = ["Alice", "Bob", "Charlie", "Diana"];
 const tasks = ["Task 1", "Task 2", "Task 3", "Task 4"];
 
 // Old Methods (Mutating)
-const oldSorted = [];
-const oldReversed = [];
-const oldSpliced = [];
+const oldSorted = numbers.sort((a, b) => b - a);
+const oldReversed = names.reverse();
+const oldSpliced = tasks.splice(1, 2);
 
 // New Methods (Immutable)
-const newSorted = [];
-const newReversed = [];
-const newSpliced = [];
+const newSorted = numbers.toSorted((a, b) => b - a);
+const newReversed = names.toReversed();
+const newSpliced = tasks.toSpliced(1, 2);
 
 // Output Results
 const output = document.getElementById("output");
