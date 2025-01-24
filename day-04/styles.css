@@ -13,4 +13,14 @@
     background: #ffcc00;
     border-radius: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transform: scale(0.5);
+    animation: resize__card linear forwards;
+    animation-timeline: view();
+}
+
+@keyframes resize__card {
+    to {
+        transform: scale(1);
+        background-color: #2e7d32;
+    }
 }
