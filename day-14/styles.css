@@ -1,4 +1,8 @@
 :root {
+    --base-color: purple;
+    --standard-opacity: 0.75;
+    --base-hue: 10;
+    --secondary-color: rebeccapurple;
 }
 
 .colors-card,
@@ -18,10 +22,34 @@
     .color_1 {
         background: var(--base-color);
     }
+    .color_2 {
+        background: hsl(from var(--base-color) h s calc(l + 20));
+    }
+    .color_3 {
+        background: hsl(from var(--base-color) h s calc(l + 30));
+    }
+    .color_4 {
+        background: hsl(from var(--base-color) h s calc(l + 40));
+    }
+    .color_5 {
+        background: hsl(from var(--base-color) h s calc(l + 50));
+    }
 }
 
 .dynamic-colors-card {
     .color_1 {
         background: var(--secondary-color);
+    }
+    .color_2 {
+        background: hsl(from var(--secondary-color) calc(var(--base-hue) + 20) s l);
+    }
+    .color_3 {
+        background: hsl(from var(--secondary-color) calc(var(--base-hue) + 70) s l);
+    }
+    .color_4 {
+        background: hsl(from var(--secondary-color) calc(var(--base-hue) + 120) s l);
+    }
+    .color_5 {
+        background: hsl(from var(--secondary-color) calc(var(--base-hue) + 170) s l);
     }
 }
