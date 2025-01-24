@@ -6,7 +6,9 @@
 }
 
 .balanced-text {
+    text-wrap: balance;
 }
 
 .pretty-text {
+    text-wrap: pretty;
 }
