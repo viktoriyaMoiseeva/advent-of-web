@@ -3,10 +3,11 @@ import "./styles.css";
 const colors = ["Red", "Blue", "Green", "Yellow"];
 
 // Old Way: Using Array Copy and Splice (Manual Immutability)
-const oldReplaced = [];
+const oldReplaced = [...colors];
+oldReplaced.splice(-1, 1, 'Black');
 
 // New Way: Using `with` for Immutability
-const newReplaced = [];
+const newReplaced = colors.with(-1, 'Black');
 
 // Output Results
 const output = document.getElementById("output");
