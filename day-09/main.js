@@ -9,7 +9,7 @@ const transactions = [
 ];
 
 // Group transactions by category using Object.groupBy
-const groupedTransactions = {};
+const groupedTransactions = Object.groupBy(transactions, ({category}) => category);
 
 // Render grouped transactions
 const groupedTransactionsContainer = document.getElementById(
